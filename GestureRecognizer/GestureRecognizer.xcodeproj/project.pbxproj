@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E264CDDF19DE9CA90052F50A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E264CDDE19DE9CA90052F50A /* Images.xcassets */; };
+		E264CDEE19DE9CA90052F50A /* GestureRecognizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E264CDED19DE9CA90052F50A /* GestureRecognizerTests.swift */; };
+		E264CE0B19DE9DD10052F50A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E264CE0719DE9DD10052F50A /* AppDelegate.swift */; };
+		E264CE0C19DE9DD10052F50A /* BootLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E264CE0819DE9DD10052F50A /* BootLogic.swift */; };
+		E264CE0D19DE9DD10052F50A /* ConsoleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E264CE0919DE9DD10052F50A /* ConsoleScreen.swift */; };
+		E264CE0E19DE9DD10052F50A /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E264CE0A19DE9DD10052F50A /* MainScreen.swift */; };
+		E264CE1119DE9F2C0052F50A /* grass.png in Resources */ = {isa = PBXBuildFile; fileRef = E264CE1019DE9F2C0052F50A /* grass.png */; };
+		E264CE1319DE9F380052F50A /* ant.png in Resources */ = {isa = PBXBuildFile; fileRef = E264CE1219DE9F380052F50A /* ant.png */; };
+		E264CE1619DEA02B0052F50A /* DemoTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E264CE1519DEA02B0052F50A /* DemoTap.swift */; };
+		E264CE1819DEA3EA0052F50A /* DemoPan.swift in Sources */ = {isa = PBXBuildFile; fileRef = E264CE1719DEA3EA0052F50A /* DemoPan.swift */; };
+		E264CE1A19DEA44E0052F50A /* target.png in Resources */ = {isa = PBXBuildFile; fileRef = E264CE1919DEA44E0052F50A /* target.png */; };
+		E264CE1C19DEA7360052F50A /* DemoRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E264CE1B19DEA7360052F50A /* DemoRotate.swift */; };
+		E264CE1E19DEA7BB0052F50A /* dial.png in Resources */ = {isa = PBXBuildFile; fileRef = E264CE1D19DEA7BB0052F50A /* dial.png */; };
+		E264CE2019DEAC3F0052F50A /* DemoSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E264CE1F19DEAC3F0052F50A /* DemoSwipe.swift */; };
+		E264CE2219DEAD140052F50A /* exit.png in Resources */ = {isa = PBXBuildFile; fileRef = E264CE2119DEAD140052F50A /* exit.png */; };
+		E264CE2419DEB0A20052F50A /* DemoPinch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E264CE2319DEB0A20052F50A /* DemoPinch.swift */; };
+		E264CE2819DEB15B0052F50A /* playboy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E264CE2719DEB15B0052F50A /* playboy.jpg */; };
+		E264CE2A19DEB6120052F50A /* DemoPinchRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E264CE2919DEB6120052F50A /* DemoPinchRotate.swift */; };
+		E264CE2C19DECAA30052F50A /* ThrowBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = E264CE2B19DECAA30052F50A /* ThrowBall.swift */; };
+		E264CE2E19DECB2D0052F50A /* football.png in Resources */ = {isa = PBXBuildFile; fileRef = E264CE2D19DECB2D0052F50A /* football.png */; };
+		F41E1CD119E810E000A51CBC /* keeper.png in Resources */ = {isa = PBXBuildFile; fileRef = F41E1CD019E810E000A51CBC /* keeper.png */; };
+		F41E1CD319E8137E00A51CBC /* ThrowPaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41E1CD219E8137E00A51CBC /* ThrowPaper.swift */; };
+		F41E1CD519E8159D00A51CBC /* EmptyTrash.png in Resources */ = {isa = PBXBuildFile; fileRef = F41E1CD419E8159D00A51CBC /* EmptyTrash.png */; };
+		F43A74CC19E430EE00BEB031 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F43A74CB19E430EE00BEB031 /* background.jpg */; };
+		F4AE3FE619E2E30600F1D182 /* Football.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE3FE519E2E30600F1D182 /* Football.swift */; };
+		F4E31E5419EC18D2004C8EAF /* paper.png in Resources */ = {isa = PBXBuildFile; fileRef = F4E31E5319EC18D2004C8EAF /* paper.png */; };
+		F4E31E5619EC6608004C8EAF /* gate.png in Resources */ = {isa = PBXBuildFile; fileRef = F4E31E5519EC6608004C8EAF /* gate.png */; };
+		F4E31E5819EC6967004C8EAF /* ImpossibleRush.png in Resources */ = {isa = PBXBuildFile; fileRef = F4E31E5719EC6967004C8EAF /* ImpossibleRush.png */; };
+		F4E31E5A19EC697B004C8EAF /* ImpossibleRush.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E31E5919EC697B004C8EAF /* ImpossibleRush.swift */; };
+		F4E31E6019EC6C50004C8EAF /* ball1.png in Resources */ = {isa = PBXBuildFile; fileRef = F4E31E5C19EC6C50004C8EAF /* ball1.png */; };
+		F4E31E6119EC6C50004C8EAF /* ball2.png in Resources */ = {isa = PBXBuildFile; fileRef = F4E31E5D19EC6C50004C8EAF /* ball2.png */; };
+		F4E31E6219EC6C50004C8EAF /* ball3.png in Resources */ = {isa = PBXBuildFile; fileRef = F4E31E5E19EC6C50004C8EAF /* ball3.png */; };
+		F4E31E6319EC6C50004C8EAF /* ball4.png in Resources */ = {isa = PBXBuildFile; fileRef = F4E31E5F19EC6C50004C8EAF /* ball4.png */; };
+		F4ED109919E69DAE0020A6DA /* ban1.png in Resources */ = {isa = PBXBuildFile; fileRef = F4ED109219E69DAE0020A6DA /* ban1.png */; };
+		F4ED109A19E69DAE0020A6DA /* bi0.png in Resources */ = {isa = PBXBuildFile; fileRef = F4ED109319E69DAE0020A6DA /* bi0.png */; };
+		F4ED109B19E69DAE0020A6DA /* bi6.png in Resources */ = {isa = PBXBuildFile; fileRef = F4ED109419E69DAE0020A6DA /* bi6.png */; };
+		F4ED109C19E69DAE0020A6DA /* bi8.png in Resources */ = {isa = PBXBuildFile; fileRef = F4ED109519E69DAE0020A6DA /* bi8.png */; };
+		F4ED109D19E69DAE0020A6DA /* bi10.png in Resources */ = {isa = PBXBuildFile; fileRef = F4ED109619E69DAE0020A6DA /* bi10.png */; };
+		F4ED109E19E69DAE0020A6DA /* bi13.png in Resources */ = {isa = PBXBuildFile; fileRef = F4ED109719E69DAE0020A6DA /* bi13.png */; };
+		F4ED109F19E69DAE0020A6DA /* bi15.png in Resources */ = {isa = PBXBuildFile; fileRef = F4ED109819E69DAE0020A6DA /* bi15.png */; };
+		F4ED10A119E69E1E0020A6DA /* gay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4ED10A019E69E1E0020A6DA /* gay.jpg */; };
+		F4ED10A319E69E9F0020A6DA /* BiA.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ED10A219E69E9F0020A6DA /* BiA.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E264CDE819DE9CA90052F50A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E264CDCA19DE9CA90052F50A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E264CDD119DE9CA90052F50A;
+			remoteInfo = GestureRecognizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E264CDD219DE9CA90052F50A /* GestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E264CDD619DE9CA90052F50A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E264CDDE19DE9CA90052F50A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E264CDE719DE9CA90052F50A /* GestureRecognizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureRecognizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E264CDEC19DE9CA90052F50A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E264CDED19DE9CA90052F50A /* GestureRecognizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureRecognizerTests.swift; sourceTree = "<group>"; };
+		E264CDF819DE9CD70052F50A /* GestureRecognizer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GestureRecognizer-Bridging-Header.h"; sourceTree = "<group>"; };
+		E264CE0719DE9DD10052F50A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E264CE0819DE9DD10052F50A /* BootLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BootLogic.swift; sourceTree = "<group>"; };
+		E264CE0919DE9DD10052F50A /* ConsoleScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleScreen.swift; sourceTree = "<group>"; };
+		E264CE0A19DE9DD10052F50A /* MainScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		E264CE1019DE9F2C0052F50A /* grass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grass.png; sourceTree = "<group>"; };
+		E264CE1219DE9F380052F50A /* ant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ant.png; sourceTree = "<group>"; };
+		E264CE1519DEA02B0052F50A /* DemoTap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTap.swift; sourceTree = "<group>"; };
+		E264CE1719DEA3EA0052F50A /* DemoPan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoPan.swift; sourceTree = "<group>"; };
+		E264CE1919DEA44E0052F50A /* target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = target.png; sourceTree = "<group>"; };
+		E264CE1B19DEA7360052F50A /* DemoRotate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoRotate.swift; sourceTree = "<group>"; };
+		E264CE1D19DEA7BB0052F50A /* dial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dial.png; sourceTree = "<group>"; };
+		E264CE1F19DEAC3F0052F50A /* DemoSwipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoSwipe.swift; sourceTree = "<group>"; };
+		E264CE2119DEAD140052F50A /* exit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exit.png; sourceTree = "<group>"; };
+		E264CE2319DEB0A20052F50A /* DemoPinch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoPinch.swift; sourceTree = "<group>"; };
+		E264CE2719DEB15B0052F50A /* playboy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = playboy.jpg; sourceTree = "<group>"; };
+		E264CE2919DEB6120052F50A /* DemoPinchRotate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoPinchRotate.swift; sourceTree = "<group>"; };
+		E264CE2B19DECAA30052F50A /* ThrowBall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThrowBall.swift; sourceTree = "<group>"; };
+		E264CE2D19DECB2D0052F50A /* football.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = football.png; sourceTree = "<group>"; };
+		F41E1CD019E810E000A51CBC /* keeper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keeper.png; sourceTree = "<group>"; };
+		F41E1CD219E8137E00A51CBC /* ThrowPaper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThrowPaper.swift; sourceTree = "<group>"; };
+		F41E1CD419E8159D00A51CBC /* EmptyTrash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EmptyTrash.png; sourceTree = "<group>"; };
+		F43A74CB19E430EE00BEB031 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		F4AE3FE519E2E30600F1D182 /* Football.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Football.swift; sourceTree = "<group>"; };
+		F4E31E5319EC18D2004C8EAF /* paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paper.png; sourceTree = "<group>"; };
+		F4E31E5519EC6608004C8EAF /* gate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gate.png; sourceTree = "<group>"; };
+		F4E31E5719EC6967004C8EAF /* ImpossibleRush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImpossibleRush.png; sourceTree = "<group>"; };
+		F4E31E5919EC697B004C8EAF /* ImpossibleRush.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImpossibleRush.swift; sourceTree = "<group>"; };
+		F4E31E5C19EC6C50004C8EAF /* ball1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball1.png; sourceTree = "<group>"; };
+		F4E31E5D19EC6C50004C8EAF /* ball2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball2.png; sourceTree = "<group>"; };
+		F4E31E5E19EC6C50004C8EAF /* ball3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball3.png; sourceTree = "<group>"; };
+		F4E31E5F19EC6C50004C8EAF /* ball4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball4.png; sourceTree = "<group>"; };
+		F4ED109219E69DAE0020A6DA /* ban1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ban1.png; sourceTree = "<group>"; };
+		F4ED109319E69DAE0020A6DA /* bi0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bi0.png; sourceTree = "<group>"; };
+		F4ED109419E69DAE0020A6DA /* bi6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bi6.png; sourceTree = "<group>"; };
+		F4ED109519E69DAE0020A6DA /* bi8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bi8.png; sourceTree = "<group>"; };
+		F4ED109619E69DAE0020A6DA /* bi10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bi10.png; sourceTree = "<group>"; };
+		F4ED109719E69DAE0020A6DA /* bi13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bi13.png; sourceTree = "<group>"; };
+		F4ED109819E69DAE0020A6DA /* bi15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bi15.png; sourceTree = "<group>"; };
+		F4ED10A019E69E1E0020A6DA /* gay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gay.jpg; sourceTree = "<group>"; };
+		F4ED10A219E69E9F0020A6DA /* BiA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BiA.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E264CDCF19DE9CA90052F50A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E264CDE419DE9CA90052F50A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E264CDC919DE9CA90052F50A = {
+			isa = PBXGroup;
+			children = (
+				E264CDD419DE9CA90052F50A /* GestureRecognizer */,
+				E264CDEA19DE9CA90052F50A /* GestureRecognizerTests */,
+				E264CDD319DE9CA90052F50A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E264CDD319DE9CA90052F50A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E264CDD219DE9CA90052F50A /* GestureRecognizer.app */,
+				E264CDE719DE9CA90052F50A /* GestureRecognizerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E264CDD419DE9CA90052F50A /* GestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				E264CDF719DE9CBD0052F50A /* Core */,
+				E264CE1419DEA0070052F50A /* Basic */,
+				E264CDDE19DE9CA90052F50A /* Images.xcassets */,
+				E264CE0F19DE9F230052F50A /* Images */,
+				E264CDD519DE9CA90052F50A /* Supporting Files */,
+			);
+			path = GestureRecognizer;
+			sourceTree = "<group>";
+		};
+		E264CDD519DE9CA90052F50A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E264CDD619DE9CA90052F50A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E264CDEA19DE9CA90052F50A /* GestureRecognizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E264CDED19DE9CA90052F50A /* GestureRecognizerTests.swift */,
+				E264CDEB19DE9CA90052F50A /* Supporting Files */,
+			);
+			path = GestureRecognizerTests;
+			sourceTree = "<group>";
+		};
+		E264CDEB19DE9CA90052F50A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E264CDEC19DE9CA90052F50A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E264CDF719DE9CBD0052F50A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E264CE0719DE9DD10052F50A /* AppDelegate.swift */,
+				E264CE0819DE9DD10052F50A /* BootLogic.swift */,
+				E264CE0919DE9DD10052F50A /* ConsoleScreen.swift */,
+				E264CE0A19DE9DD10052F50A /* MainScreen.swift */,
+				E264CDF819DE9CD70052F50A /* GestureRecognizer-Bridging-Header.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		E264CE0F19DE9F230052F50A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F4E31E5B19EC6C37004C8EAF /* ImpossibleRush */,
+				F4E31E5519EC6608004C8EAF /* gate.png */,
+				F4E31E5319EC18D2004C8EAF /* paper.png */,
+				F41E1CD419E8159D00A51CBC /* EmptyTrash.png */,
+				F41E1CD019E810E000A51CBC /* keeper.png */,
+				F4ED109119E69DA40020A6DA /* Bia */,
+				F43A74CB19E430EE00BEB031 /* background.jpg */,
+				E264CE2D19DECB2D0052F50A /* football.png */,
+				E264CE2719DEB15B0052F50A /* playboy.jpg */,
+				E264CE2119DEAD140052F50A /* exit.png */,
+				E264CE1D19DEA7BB0052F50A /* dial.png */,
+				E264CE1919DEA44E0052F50A /* target.png */,
+				E264CE1219DE9F380052F50A /* ant.png */,
+				E264CE1019DE9F2C0052F50A /* grass.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		E264CE1419DEA0070052F50A /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				E264CE1519DEA02B0052F50A /* DemoTap.swift */,
+				E264CE1719DEA3EA0052F50A /* DemoPan.swift */,
+				E264CE1B19DEA7360052F50A /* DemoRotate.swift */,
+				E264CE1F19DEAC3F0052F50A /* DemoSwipe.swift */,
+				E264CE2319DEB0A20052F50A /* DemoPinch.swift */,
+				E264CE2919DEB6120052F50A /* DemoPinchRotate.swift */,
+				E264CE2B19DECAA30052F50A /* ThrowBall.swift */,
+				F4AE3FE519E2E30600F1D182 /* Football.swift */,
+				F4ED10A219E69E9F0020A6DA /* BiA.swift */,
+				F41E1CD219E8137E00A51CBC /* ThrowPaper.swift */,
+				F4E31E5919EC697B004C8EAF /* ImpossibleRush.swift */,
+			);
+			name = Basic;
+			sourceTree = "<group>";
+		};
+		F4E31E5B19EC6C37004C8EAF /* ImpossibleRush */ = {
+			isa = PBXGroup;
+			children = (
+				F4E31E5C19EC6C50004C8EAF /* ball1.png */,
+				F4E31E5D19EC6C50004C8EAF /* ball2.png */,
+				F4E31E5E19EC6C50004C8EAF /* ball3.png */,
+				F4E31E5F19EC6C50004C8EAF /* ball4.png */,
+				F4E31E5719EC6967004C8EAF /* ImpossibleRush.png */,
+			);
+			name = ImpossibleRush;
+			sourceTree = "<group>";
+		};
+		F4ED109119E69DA40020A6DA /* Bia */ = {
+			isa = PBXGroup;
+			children = (
+				F4ED10A019E69E1E0020A6DA /* gay.jpg */,
+				F4ED109219E69DAE0020A6DA /* ban1.png */,
+				F4ED109319E69DAE0020A6DA /* bi0.png */,
+				F4ED109419E69DAE0020A6DA /* bi6.png */,
+				F4ED109519E69DAE0020A6DA /* bi8.png */,
+				F4ED109619E69DAE0020A6DA /* bi10.png */,
+				F4ED109719E69DAE0020A6DA /* bi13.png */,
+				F4ED109819E69DAE0020A6DA /* bi15.png */,
+			);
+			name = Bia;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E264CDD119DE9CA90052F50A /* GestureRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E264CDF119DE9CA90052F50A /* Build configuration list for PBXNativeTarget "GestureRecognizer" */;
+			buildPhases = (
+				E264CDCE19DE9CA90052F50A /* Sources */,
+				E264CDCF19DE9CA90052F50A /* Frameworks */,
+				E264CDD019DE9CA90052F50A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GestureRecognizer;
+			productName = GestureRecognizer;
+			productReference = E264CDD219DE9CA90052F50A /* GestureRecognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E264CDE619DE9CA90052F50A /* GestureRecognizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E264CDF419DE9CA90052F50A /* Build configuration list for PBXNativeTarget "GestureRecognizerTests" */;
+			buildPhases = (
+				E264CDE319DE9CA90052F50A /* Sources */,
+				E264CDE419DE9CA90052F50A /* Frameworks */,
+				E264CDE519DE9CA90052F50A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E264CDE919DE9CA90052F50A /* PBXTargetDependency */,
+			);
+			name = GestureRecognizerTests;
+			productName = GestureRecognizerTests;
+			productReference = E264CDE719DE9CA90052F50A /* GestureRecognizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E264CDCA19DE9CA90052F50A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Techmaster Vietnam";
+				TargetAttributes = {
+					E264CDD119DE9CA90052F50A = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					E264CDE619DE9CA90052F50A = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = E264CDD119DE9CA90052F50A;
+					};
+				};
+			};
+			buildConfigurationList = E264CDCD19DE9CA90052F50A /* Build configuration list for PBXProject "GestureRecognizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E264CDC919DE9CA90052F50A;
+			productRefGroup = E264CDD319DE9CA90052F50A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E264CDD119DE9CA90052F50A /* GestureRecognizer */,
+				E264CDE619DE9CA90052F50A /* GestureRecognizerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E264CDD019DE9CA90052F50A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E31E5819EC6967004C8EAF /* ImpossibleRush.png in Resources */,
+				E264CE1A19DEA44E0052F50A /* target.png in Resources */,
+				F4E31E6019EC6C50004C8EAF /* ball1.png in Resources */,
+				F4E31E6319EC6C50004C8EAF /* ball4.png in Resources */,
+				E264CE1E19DEA7BB0052F50A /* dial.png in Resources */,
+				F4ED109F19E69DAE0020A6DA /* bi15.png in Resources */,
+				F41E1CD519E8159D00A51CBC /* EmptyTrash.png in Resources */,
+				F4ED109C19E69DAE0020A6DA /* bi8.png in Resources */,
+				F4E31E6219EC6C50004C8EAF /* ball3.png in Resources */,
+				F4ED109B19E69DAE0020A6DA /* bi6.png in Resources */,
+				F4ED109E19E69DAE0020A6DA /* bi13.png in Resources */,
+				F4E31E6119EC6C50004C8EAF /* ball2.png in Resources */,
+				E264CE2E19DECB2D0052F50A /* football.png in Resources */,
+				F4ED109A19E69DAE0020A6DA /* bi0.png in Resources */,
+				F4ED109D19E69DAE0020A6DA /* bi10.png in Resources */,
+				F4E31E5419EC18D2004C8EAF /* paper.png in Resources */,
+				F4ED10A119E69E1E0020A6DA /* gay.jpg in Resources */,
+				F41E1CD119E810E000A51CBC /* keeper.png in Resources */,
+				E264CE1119DE9F2C0052F50A /* grass.png in Resources */,
+				F4ED109919E69DAE0020A6DA /* ban1.png in Resources */,
+				E264CE1319DE9F380052F50A /* ant.png in Resources */,
+				E264CDDF19DE9CA90052F50A /* Images.xcassets in Resources */,
+				F43A74CC19E430EE00BEB031 /* background.jpg in Resources */,
+				E264CE2219DEAD140052F50A /* exit.png in Resources */,
+				E264CE2819DEB15B0052F50A /* playboy.jpg in Resources */,
+				F4E31E5619EC6608004C8EAF /* gate.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E264CDE519DE9CA90052F50A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E264CDCE19DE9CA90052F50A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E264CE2419DEB0A20052F50A /* DemoPinch.swift in Sources */,
+				E264CE0E19DE9DD10052F50A /* MainScreen.swift in Sources */,
+				E264CE1C19DEA7360052F50A /* DemoRotate.swift in Sources */,
+				E264CE0D19DE9DD10052F50A /* ConsoleScreen.swift in Sources */,
+				E264CE2A19DEB6120052F50A /* DemoPinchRotate.swift in Sources */,
+				F41E1CD319E8137E00A51CBC /* ThrowPaper.swift in Sources */,
+				E264CE2C19DECAA30052F50A /* ThrowBall.swift in Sources */,
+				F4AE3FE619E2E30600F1D182 /* Football.swift in Sources */,
+				E264CE0C19DE9DD10052F50A /* BootLogic.swift in Sources */,
+				E264CE1619DEA02B0052F50A /* DemoTap.swift in Sources */,
+				E264CE1819DEA3EA0052F50A /* DemoPan.swift in Sources */,
+				F4E31E5A19EC697B004C8EAF /* ImpossibleRush.swift in Sources */,
+				E264CE0B19DE9DD10052F50A /* AppDelegate.swift in Sources */,
+				F4ED10A319E69E9F0020A6DA /* BiA.swift in Sources */,
+				E264CE2019DEAC3F0052F50A /* DemoSwipe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E264CDE319DE9CA90052F50A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E264CDEE19DE9CA90052F50A /* GestureRecognizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E264CDE919DE9CA90052F50A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E264CDD119DE9CA90052F50A /* GestureRecognizer */;
+			targetProxy = E264CDE819DE9CA90052F50A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E264CDEF19DE9CA90052F50A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E264CDF019DE9CA90052F50A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E264CDF219DE9CA90052F50A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = GestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GestureRecognizer/GestureRecognizer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E264CDF319DE9CA90052F50A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = GestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GestureRecognizer/GestureRecognizer-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		E264CDF519DE9CA90052F50A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GestureRecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GestureRecognizer.app/GestureRecognizer";
+			};
+			name = Debug;
+		};
+		E264CDF619DE9CA90052F50A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GestureRecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GestureRecognizer.app/GestureRecognizer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E264CDCD19DE9CA90052F50A /* Build configuration list for PBXProject "GestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E264CDEF19DE9CA90052F50A /* Debug */,
+				E264CDF019DE9CA90052F50A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E264CDF119DE9CA90052F50A /* Build configuration list for PBXNativeTarget "GestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E264CDF219DE9CA90052F50A /* Debug */,
+				E264CDF319DE9CA90052F50A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E264CDF419DE9CA90052F50A /* Build configuration list for PBXNativeTarget "GestureRecognizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E264CDF519DE9CA90052F50A /* Debug */,
+				E264CDF619DE9CA90052F50A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E264CDCA19DE9CA90052F50A /* Project object */;
+}
